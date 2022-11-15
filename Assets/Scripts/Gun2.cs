@@ -33,7 +33,7 @@ public class Gun2 : MonoBehaviour
 
     private void Shoot()
     {
-        var Ball = Instantiate(ball, gun.position, transform.rotation, transform.parent);
+        var Ball = Instantiate(ball, gun.position, transform.rotation);
         targetRotation.z = 0;
         finaltarget = (targetRotation - transform.position).normalized;
         Ball.GetComponent<Rigidbody2D>().AddForce(finaltarget * speedball, ForceMode2D.Impulse);

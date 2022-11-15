@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Plataforma Movil
   - Plataformamovil
+  - Enemigo
   layers:
   - Default
   - TransparentFX

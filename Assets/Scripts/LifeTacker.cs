@@ -9,6 +9,7 @@ public class LifeTacker : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log(collision.gameObject.name);
         if(collision.tag ==target_tag)
         {
             collision.GetComponent<LifeController>().Damage(damage);
