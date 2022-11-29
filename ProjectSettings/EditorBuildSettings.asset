@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuPrincipal.unity
     guid: c7a28b37e4994b74a9cc79902d891428
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Nivel.unity
     guid: ce123a76bed980d4fb2c95bdbf4d77a5
   - enabled: 1
     path: Assets/Scenes/Gimnasio.unity
     guid: 79b2b8e9c7b26b049bbed3673084401f
+  - enabled: 1
+    path: Assets/Scenes/Salir.unity
+    guid: cdd7d575bc04a8c4387ec7d749f3de9b
   m_configObjects: {}
